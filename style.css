@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Miriam+Libre:wght@700&display=swap');
+.body_background {
+    background-image: url("./849453.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#myCanvas {
+    border-width: 10px;
+    background-color: white;
+    border-style: hidden;
+}
+
+h2 {
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px;
+}
+
+h3 {
+    display: inline-block;
+}
+
+span {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    float: left;
+    border-radius: 10px;
+}
+
+#head_info {
+    width: 600px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
