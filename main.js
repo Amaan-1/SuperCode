@@ -84,7 +84,7 @@ function my_keydown(e) {
 }
 
 function Right() {
-    if (player_x <= (canvas.width - 116)) {
+    if (player_x <= (canvas.width - 180)) {
         player_x = player_x + block_width;
         console.log("Player X" + " = " + player_x + " ; " + "Player Y" + " = " + player_y);
         console.log("RIGHT KEY PRESSED");
@@ -94,7 +94,7 @@ function Right() {
 }
 
 function Up() {
-    if (player_y >= 5) {
+    if (player_y >= 50) {
         player_y = player_y - block_height;
         console.log("Player X" + " = " + player_x + " ; " + "Player Y" + " = " + player_y);
         console.log("UP KEY PRESSED");
@@ -104,7 +104,7 @@ function Up() {
 }
 
 function Left() {
-    if (player_x >= (-5)) {
+    if (player_x >= 50) {
         player_x = player_x - block_width;
         console.log("Player X" + " = " + player_x + " ; " + "Player Y" + " = " + player_y);
         console.log("LEFT KEY PRESSED");
@@ -114,7 +114,7 @@ function Left() {
 }
 
 function Down() {
-    if (player_y <= (canvas.height - 100)) {
+    if (player_y <= (canvas.height - 230)) {
         player_y = player_y + block_height;
         console.log("Player X" + " = " + player_x + " ; " + "Player Y" + " = " + player_y);
         console.log("DOWN KEY PRESSED");
