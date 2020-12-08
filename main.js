@@ -7,7 +7,7 @@ var object_new = "";
 var object_player = "";
 
 function add_player_img() {
-    fabric.Image.fromURL("images/player.png", function(Img) {
+    fabric.Image.fromURL("player.png", function(Img) {
         object_player = Img;
         object_player.scaleToWidth(200);
         object_player.scaleToHeight(200);
@@ -39,27 +39,27 @@ function my_keydown(e) {
     console.log(keypress);
 
     if (keypress == "70") {
-        add_new_img("images/spiderman_face.png");
+        add_new_img("spiderman_face.png");
         console.log("F Key Pressed");
     }
 
     if (keypress == "66") {
-        add_new_img("images/spiderman_body.png");
+        add_new_img("spiderman_body.png");
         console.log("B Key Pressed");
     }
 
     if (keypress == "76") {
-        add_new_img("images/ironman_legs.png");
+        add_new_img("ironman_legs.png");
         console.log("L Key Pressed");
     }
 
     if (keypress == "82") {
-        add_new_img("images/thor_right_hand.png");
+        add_new_img("thor_right_hand.png");
         console.log("R Key Pressed");
     }
 
     if (keypress == "72") {
-        add_new_img("images/ironman_left_hand.png");
+        add_new_img("ironman_left_hand.png");
         console.log("R Key Pressed");
     }
     if (keypress == "37") {
